@@ -1,0 +1,56 @@
+@import "./variables/variables";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $color-fondo;
+}
+nav{
+    background-color: gray;
+    height: 50px;
+    padding: 20px;
+
+        div{
+            width: 100%;
+                button{
+                    background-color: rgb(142, 241, 106);
+                    padding: 2px;
+                    border-radius: 10%;
+                    width: auto;
+                    
+                }
+        }
+}
+#cont-rick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    margin: 20px;
+        .cart-personajes{
+            width: 70%;
+            display: flex;
+            column-gap: 20px;
+            padding: 10px;
+            background-color: $color-cart;
+                .caja-img{
+                    width: 50%;
+                        img{
+                            width: 100%;
+                        }
+                }
+                .cart-info{
+                    width: 50%;
+                    color: white;
+                        h3{
+                            color: black;
+                            margin-bottom: 10px;
+                        }
+
+                }
+        }
+}

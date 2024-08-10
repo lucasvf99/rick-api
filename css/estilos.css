@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #97ce4c;
+}
+
+nav {
+  background-color: gray;
+  height: 50px;
+  padding: 20px;
+}
+nav div {
+  width: 100%;
+}
+nav div button {
+  background-color: rgb(142, 241, 106);
+  padding: 2px;
+  border-radius: 10%;
+  width: auto;
+}
+
+#cont-rick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin: 20px;
+}
+#cont-rick .cart-personajes {
+  width: 70%;
+  display: flex;
+  column-gap: 20px;
+  padding: 10px;
+  background-color: #043c6e;
+}
+#cont-rick .cart-personajes .caja-img {
+  width: 50%;
+}
+#cont-rick .cart-personajes .caja-img img {
+  width: 100%;
+}
+#cont-rick .cart-personajes .cart-info {
+  width: 50%;
+  color: white;
+}
+#cont-rick .cart-personajes .cart-info h3 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
